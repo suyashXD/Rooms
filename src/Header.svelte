@@ -20,6 +20,6 @@
 
     {:else}
 
-      <h3>Chatboard</h3>
+      <h3>Rooms</h3>
   {/if}
 </header>
