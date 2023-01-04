@@ -47,13 +47,13 @@
     display: inline-block;
   } */
 </style>
-<div class="wrapper">
+
 <label for="username">Username</label>
 <input name="username" bind:value={username} minlength="3" maxlength="16" />
 
 <label for="password">Password</label>
 <input name="password" bind:value={password} type="password" />
-</div>
+
 <div class="wrapper">
 <button class="login" on:click={login}>Login</button>
 <button class="login"  on:click={signup}>Sign Up</button>
