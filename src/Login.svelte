@@ -47,11 +47,11 @@
     display: inline-block;
   } */
   label[for^=username] {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 label[for^=password] {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 </style>

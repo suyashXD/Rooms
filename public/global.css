@@ -94,7 +94,7 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	height: 120vh;
-	background-color: #94B8B9;
+	background-color: #2A2F32;
   }
   
   main {
@@ -137,16 +137,17 @@ header {
   
   
   input {
+	height: 7vh;
 	line-height: 1.5;
 	width: 40%;
 	text-align: center;
-	font-size: 1.5rem;
-	background: #2A2F32;
+	font-size: 1.2rem;
+	background: #0D1418;
 	color: white;
 	outline: none;
 	border: none;
 	border-radius: 20px;
-	padding: 0 10px;
+	padding: 1px 10px;
 	margin-left: 30%;
   }
   input.hihi{
@@ -154,6 +155,7 @@ header {
 	width: 90vw;
 	height: 8vh;
 	color: white;
+	background: #2A2F32;
 	margin-top: 1vh;
 	margin-left: 1vw;
 	padding: 1rem 1rem 1rem 1rem;
@@ -237,7 +239,7 @@ header {
 	text-align: right;
   }
   .received p {
-	background: #2A2F32;
+	background: #0D1418;
 	color: white;
 	text-align: left;
   }
@@ -256,8 +258,8 @@ header {
   time {
 	  color: white;
 	  font-size: 0.7rem;
-	  color: black;
-	  margin: 0 1rem;
+	  color: white;
+	  margin: 0.5rem 1rem;
   }
   
   img {
@@ -276,7 +278,7 @@ header {
 	  align-items: center;
   }
 
-  .scroll-button {
+  .scroll {
 	  background-color: transparent;
 	  position: fixed;
 	  bottom: 70px;
@@ -298,4 +300,11 @@ header {
 	  border-bottom-left-radius: 20px;
 	  font-size: 1rem;
 	  padding: 0.5rem 0.5rem;
+  }
+  .hola{
+	background-color: transparent;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+  .signout-button:hover{
+	filter: brightness(1);
   }

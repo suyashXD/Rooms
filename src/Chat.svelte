@@ -75,11 +75,21 @@
       autoScroll();
     }
   </script>
-  <!-- <style> -->
-    <!-- submit{ -->
-      <!-- align-items: flex-end; -->
-    <!-- } -->
-  <!-- </style> -->
+  <style>
+  .scrolll {
+	background-color: transparent; 
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 1.25rem;
+	margin: 0;
+	width: 140px;
+  }
+    
+  </style>
   <div class="container">
     {#if $username}
       <main on:scroll={debouncedWatchScroll}>
@@ -98,8 +108,8 @@
   
   
       {#if !canAutoScroll}
-      <div class="scroll-button">
-        <button on:click={autoScroll} class:red={unreadMessages}>
+      <div class="scrolll">
+        <button class="scroll"on:click={autoScroll} class:red={unreadMessages}>
           {#if unreadMessages}
             💬
           {/if}

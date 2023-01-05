@@ -5,10 +5,14 @@
     user.leave();
     username.set('');
   }
+  function refreshPage(){
+    window.location.reload();
+} 
 </script>
 
 <header>
-<h1>💬                                                         </h1>
+<div><button class = "hola" type="submit" onClick="window.location.href=window.location.href">💬</button></div>
+
   {#if $username}
     <div class="user-bio">
       
@@ -20,6 +24,6 @@
 
     {:else}
 
-      <h3>Rooms</h3>
+  <div><button class= "hola" type="submit" onClick="window.location.href=window.location.href">Rooms</button></div>
   {/if}
 </header>
