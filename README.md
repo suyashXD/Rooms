@@ -1,4 +1,4 @@
-# This repo is no longer maintained. Consider using `npm init vite` and selecting the `svelte` option or — if you want a full-fledged app framework and don't mind using pre-1.0 software — use [SvelteKit](https://kit.svelte.dev), the official application framework for Svelte.
+# Rooms is a decentralized messaging application that provides a fast and reliable way for users to communicate with one another in real time.
 
 ---
 
