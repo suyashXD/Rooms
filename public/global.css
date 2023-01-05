@@ -291,11 +291,11 @@ header {
   }
 
   .signout-button {
-	background-color: #056162;
+	background-color: transparent;
 	  height: 10vh;
 	  margin-right: 0em;
  
-	  width: 25vw;
+	  width: 15vw;
 	  border-top-left-radius: 20px;
 	  border-bottom-left-radius: 20px;
 	  font-size: 1rem;
@@ -310,6 +310,6 @@ header {
   }
   .rooms{
 	background-color: transparent;
-	text-align: left;
-	margin-left: 1vw;
+	
+	margin-left: 0vw;
   }
