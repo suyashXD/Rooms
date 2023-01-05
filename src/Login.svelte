@@ -30,8 +30,8 @@
     
   }
 	.login:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
+  background-color: #00BFA5; /* Green */
+  color: black;
   border-radius: 20px;
 	}
   /* .signup{
@@ -46,6 +46,14 @@
   .login,.signup{
     display: inline-block;
   } */
+  label[for^=username] {
+    color: black;
+    font-weight: bold;
+}
+label[for^=password] {
+    color: black;
+    font-weight: bold;
+}
 </style>
 
 <label for="username">Username</label>

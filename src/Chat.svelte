@@ -75,7 +75,11 @@
       autoScroll();
     }
   </script>
-  
+  <!-- <style> -->
+    <!-- submit{ -->
+      <!-- align-items: flex-end; -->
+    <!-- } -->
+  <!-- </style> -->
   <div class="container">
     {#if $username}
       <main on:scroll={debouncedWatchScroll}>
@@ -87,9 +91,9 @@
       </main>
   
       <form on:submit|preventDefault={sendMessage}>
-        <input type="text" placeholder="Type a message..." bind:value={newMessage} maxlength="100" />
+        <input class="hihi" type="text"  placeholder="Type a message..." bind:value={newMessage} maxlength="100" />
   
-        <button type="submit" disabled={!newMessage}>💥</button>
+        <button class= "hoho" type="submit" disabled={!newMessage}>🚀</button>
       </form>
   
   
