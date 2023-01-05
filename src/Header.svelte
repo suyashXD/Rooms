@@ -11,8 +11,8 @@
 </script>
 
 <header>
-<div><button class = "hola" type="submit" onClick="window.location.href=window.location.href">💬</button></div>
 
+<button class= "rooms" type="submit" onClick="window.location.href=window.location.href">Rooms</button>
   {#if $username}
     <div class="user-bio">
       
@@ -24,6 +24,6 @@
 
     {:else}
 
-  <div><button class= "hola" type="submit" onClick="window.location.href=window.location.href">Rooms</button></div>
+<button class = "hola" type="submit" onClick="window.location.href=window.location.href">💬</button>
   {/if}
 </header>

@@ -295,7 +295,7 @@ header {
 	  height: 10vh;
 	  margin-right: 0em;
  
-	  width: 10vw;
+	  width: 25vw;
 	  border-top-left-radius: 20px;
 	  border-bottom-left-radius: 20px;
 	  font-size: 1rem;
@@ -307,4 +307,9 @@ header {
   }
   .signout-button:hover{
 	filter: brightness(1);
+  }
+  .rooms{
+	background-color: transparent;
+	text-align: left;
+	margin-left: 1vw;
   }
